@@ -1,0 +1,95 @@
+PIXO - Proprietary License with Limited Rights
+==============================================
+
+Copyright © 2024-2025 BitVit (mjojo GLK Dev)
+All Rights Reserved.
+
+PIXO is a proprietary pixel art editor and animation software developed by BitVit.
+This software and its source code are protected by copyright law and international treaties.
+
+## OWNERSHIP AND COPYRIGHT
+
+The PIXO software, including but not limited to:
+- Source code (GDScript files in /scripts/)
+- User interface designs and layouts (main.tscn)
+- Documentation (all .md files)
+- Project configuration (project.godot)
+- All associated assets and resources
+
+is the intellectual property of BitVit (mjojo GLK Dev) and is protected under copyright law.
+
+## PERMITTED USES
+
+### 1. Personal Use
+You are permitted to:
+- Download and use PIXO for personal, non-commercial purposes
+- Create artwork using PIXO
+- Modify the software for your own personal use only
+- Study the source code for educational purposes
+
+### 2. Attribution Required
+If you share artwork created with PIXO, you must provide attribution:
+"Created with PIXO by BitVit (mjojo GLK Dev)"
+
+## PROHIBITED USES
+
+You are explicitly PROHIBITED from:
+- **Commercial Use**: Selling, licensing, or profiting from PIXO or modified versions
+- **Redistribution**: Distributing copies of PIXO (original or modified) without written permission
+- **Rebranding**: Removing or altering copyright notices, credits, or branding
+- **Incorporating into Products**: Including PIXO code in other software products without permission
+- **Creating Derivatives for Distribution**: Creating and distributing modified versions
+- **SaaS/Cloud Services**: Offering PIXO as a web service or cloud-based tool
+- **Competing Products**: Using PIXO code to create competing pixel art editors
+
+## COMMERCIAL LICENSING
+
+For commercial use, redistribution, or incorporation into products, you must:
+- Contact BitVit at [your-email@example.com] for a commercial license
+- Obtain explicit written permission
+- Agree to separate commercial terms and fees
+
+## CONTRIBUTIONS
+
+By submitting code, bug reports, or suggestions to PIXO, you:
+- Grant BitVit perpetual rights to use your contributions
+- Acknowledge that BitVit retains all ownership of the project
+- Agree your contributions become part of PIXO under this license
+
+## TERMINATION
+
+Any violation of this license automatically terminates your rights to use PIXO.
+BitVit reserves the right to pursue legal action for unauthorized use.
+
+## NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## DISCLAIMER
+
+This license may be updated at any time. Continued use of PIXO constitutes
+acceptance of the current license terms.
+
+## CONTACT
+
+For licensing inquiries, commercial use, or permissions:
+- Author: BitVit (mjojo GLK Dev)
+- Repository: https://github.com/mjojo/PIXO
+- Email: [your-email@example.com]
+
+## GOVERNING LAW
+
+This license is governed by the laws of your jurisdiction and international copyright law.
+
+---
+
+**IMPORTANT**: By downloading, using, or accessing PIXO, you acknowledge that you have
+read, understood, and agree to be bound by the terms of this license.
+
+Last Updated: October 14, 2025
+Version: 1.3.1

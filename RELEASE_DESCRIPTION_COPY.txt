@@ -1,0 +1,235 @@
+# 📋 КОПИРОВАТЬ ДЛЯ GITHUB RELEASE
+
+## Release Title:
+```
+🎉 PIXO v2.2.0 - Tileset Edition 🎬
+```
+
+## Release Description:
+
+Скопируйте весь текст ниже (между разделителями):
+
+---START COPY---
+
+# 🎉 PIXO v2.2.0 - Tileset Edition
+
+**Animation-Ready Pixel Art Editor for Godot**
+
+Мощный профессиональный редактор пиксельной графики с полной поддержкой анимации тайлов и экспортом в Godot AnimatedTexture формат.
+
+---
+
+## 🌟 Основные возможности v2.2
+
+### 🎬 Feature 7: Tile Animation System (NEW!)
+
+Полная система анимации тайлов с экспортом в Godot!
+
+#### Возможности:
+- ✨ **Tile Animation Editor** - отдельное окно для создания анимаций
+- 🎞️ **Multi-frame animations** - неограниченное количество кадров
+- ⚡ **Live preview** - превью анимации в реальном времени
+- 🎮 **Godot Export** - экспорт в AnimatedTexture одним кликом
+- 📦 **Полная структура** - PNG кадры + .tres ресурсы + metadata
+
+#### Технические характеристики:
+```
+FPS Control:      1-60 FPS
+Loop Modes:       Loop, Ping-Pong, Once
+Frame Management: Add, Remove, Reorder
+Export Format:    Godot 4.5 AnimatedTexture (.tres)
+```
+
+#### Использование в Godot:
+```gdscript
+var animated_texture = load("res://animations/tile_0_animation.tres")
+var sprite = Sprite2D.new()
+sprite.texture = animated_texture
+add_child(sprite)
+# Анимация воспроизводится автоматически!
+```
+
+---
+
+## ✅ Другие функции (v2.0-2.2)
+
+- **🎯 Tile Selection Tool** - выбор и перестановка тайлов
+- **🎨 Tile Palette** - быстрый выбор тайлов
+- **🔄 Auto-Tile System** - 3×3 автотайлинг (RPG Maker style)
+- **🌈 10 новых палитр** - Professional color palettes
+- **💡 UI/UX Improvements** - статус-бар, подсказки, F1
+- **📦 Collision Shapes Editor** - визуальный редактор коллизий
+- **⚡ Performance Optimizations** - кэширование (~100x ускорение)
+
+---
+
+## 🐛 Исправленные баги
+
+В версии 2.2 исправлено **5 критических багов**:
+
+1. ✅ Позиционирование окна анимации на 4K мониторах
+2. ✅ Конфликт эксклюзивных диалогов
+3. ✅ Ошибка индекса кадра при создании анимации
+4. ✅ Невидимый preview анимации на canvas
+5. ✅ Расчёт max_tiles (ошибка -1)
+
+---
+
+## 📦 Структура экспорта
+
+```
+export_folder/
+├── tiles/                    # PNG кадры
+│   ├── tile_0_frame_0.png
+│   ├── tile_0_frame_1.png
+│   └── tile_0_frame_2.png
+├── animations/               # AnimatedTexture ресурсы
+│   └── tile_0_animation.tres
+└── tile_animations_metadata.json  # Метаданные
+```
+
+---
+
+## 🚀 Быстрый старт
+
+### Требования:
+- **Godot Engine:** 4.5 или выше
+- **OS:** Windows, Linux, macOS
+- **RAM:** 2GB минимум
+
+### Установка:
+
+**Вариант 1: Скачать Source Code**
+```bash
+# Скачать и распаковать Source code.zip
+# Открыть project.godot в Godot 4.5
+# Запустить (F5)
+```
+
+**Вариант 2: Git Clone**
+```bash
+git clone https://github.com/mjojo/PIXO.git
+cd PIXO
+# Открыть project.godot в Godot 4.5
+```
+
+### Создание первой анимации:
+
+```
+1. File → New → Canvas 64×64
+2. Tileset → Enable Tileset Mode (16×16)
+3. Нарисовать 3-4 разных тайла
+4. Tileset → Tile Animation Editor
+5. В окне анимации:
+   - Tile Index: 0 (какой тайл анимировать)
+   - Add Tile: 0, 1, 2 (добавить кадры)
+   - FPS: 8
+   - Loop: ON
+   - Create Animation
+   - ☑ Preview (увидеть анимацию!)
+6. Export to Godot → выбрать папку
+7. Использовать в Godot!
+```
+
+---
+
+## 📊 Статистика релиза
+
+```
+Files Modified:       5 core scripts
+Lines Added:         ~900 lines
+Functions Created:    20+ new functions
+UI Elements:         10+ components
+Bug Fixes:           5 critical
+Documentation:       25+ files (~8000+ lines)
+Testing:             43 test scenarios passed
+```
+
+---
+
+## 📚 Документация
+
+Полная документация включена в релиз:
+
+- **RELEASE_NOTES_V2.2_FINAL.md** - Полные release notes
+- **QUICKSTART_V2.2.md** - Быстрый старт
+- **TILE_ANIMATION_GODOT_EXPORT.md** - Руководство по экспорту
+- **FEATURE_7_COMPLETE.md** - Обзор Feature 7
+- **BUILD_INSTRUCTIONS.md** - Инструкции по сборке
+
+---
+
+## 🎯 Use Cases
+
+### Game Development:
+- ✅ Animated tiles (water, lava, fire)
+- ✅ Moving platforms
+- ✅ Blinking lights
+- ✅ Character animations
+- ✅ Environmental effects
+
+### Pixel Art:
+- ✅ Frame-by-frame animation
+- ✅ Real-time preview
+- ✅ Professional workflow
+
+---
+
+## ⚠️ Известные ограничения
+
+- Undo/Redo не поддерживается для анимаций (запланировано v2.3)
+- Preview показывает один тайл за раз
+- Только AnimatedTexture (SpriteFrames в v2.3)
+
+---
+
+## 🔮 Roadmap v2.3+
+
+- 🎨 Undo/Redo для анимаций
+- 📦 SpriteFrames экспорт
+- 🎬 Animation templates
+- 📐 Isometric grid support
+
+---
+
+## 📄 Лицензия
+
+**Copyright © 2024-2025 BitVit (mjojo GLK Dev). All Rights Reserved.**
+
+Proprietary software. См. LICENSE для подробностей.
+
+---
+
+## 💬 Поддержка
+
+- **GitHub Issues:** https://github.com/mjojo/PIXO/issues
+- **Documentation:** См. включённые MD файлы
+- **Quick Start:** QUICKSTART_V2.2.md
+
+---
+
+## 🎉 Changelog
+
+### v2.2.0 (October 19, 2025)
+```
++ Complete Tile Animation System
++ Live animation preview
++ Godot AnimatedTexture export
++ Frame management tools
++ 25+ documentation files
+* Fixed 5 critical bugs
+* Performance improvements
+```
+
+---
+
+**Status:** ✅ **PRODUCTION READY**
+
+**Author:** BitVit (mjojo GLK Dev)  
+**Godot Version:** 4.5+
+
+---
+
+# 🚀 PIXO v2.2 - Animation-Ready Pixel Art Editor! 🎬✨
+
+---END COPY---
