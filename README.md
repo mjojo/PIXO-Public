@@ -11,17 +11,51 @@
 ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝ 
 ```
 
-## 🚀 VERSION 2.9 - ANIMATION & PERFORMANCE SUITE - RELEASED! 🎉
+## 🚀 VERSION 2.9.3 - REFERENCE & DITHERING TOOLS - RELEASED! 🎉
 
 Мощный профессиональный редактор пиксельной графики, анимации и тайлсетов, созданный на Godot Engine 4.5. Превосходит Aseprite по функционалу работы с тайлами и автотайлингом.
 
 **Разработчик:** BitVit (mjojo GLK Dev)  
-**Текущая версия:** 2.9 ✅ **PRODUCTION READY**  
-**Дата релиза:** 20 октября 2025
+**Текущая версия:** 2.9.3 ✅ **PRODUCTION READY**  
+**Дата релиза:** 22 октября 2025
 
 ---
 
-## ⚡ Что нового в v2.9 - ANIMATION & PERFORMANCE SUITE:
+## ⚡ Что нового в v2.9.3 - REFERENCE & DITHERING TOOLS:
+
+### 🎲 Dithering System (NEW!)
+
+**Профессиональный дизеринг для ретро пиксель-арта!**
+
+#### Возможности:
+- 🎨 **7 Dithering Patterns** - Bayer (2×2, 4×4, 8×8), Ordered (3×3, 4×4), Checkerboard, Diagonal
+- 🖌️ **Dithering Brush** - кисть 4-64px с настраиваемой плотностью (0-100%)
+- 🌊 **Floyd-Steinberg** - high-quality error diffusion алгоритм для плавных градиентов
+- 📊 **Threshold Dithering** - pattern-based дизеринг для ретро-эстетики
+- 🌈 **Gradient Mode** - плавные переходы цветов с дизерингом
+- 👁️ **Real-time Preview** - 8×8 превью паттерна на курсоре
+- 💾 **Pattern Import/Export** - сохранение и загрузка custom паттернов
+- 🎯 **Perfect for:** Retro games (GB, NES, C64), limited palette art, texture creation
+
+### 🖼️ Moodboard - Reference Manager (NEW!)
+
+**Floating панель для работы с референсами без импорта в проект!**
+
+#### Возможности:
+- 📁 **Multi-Image Support** - PNG/JPG/WebP с auto-thumbnails
+- 🔄 **Transform Controls:**
+  - 🖱️ Drag - перемещение
+  - 🔄 Mouse Wheel - масштабирование
+  - 🔁 Ctrl+Drag - вращение
+- 🎨 **Eyedropper Integration** - pick цветов прямо из референсов → палитра
+- 📑 **Z-Index Layering** - контроль порядка отображения
+- 💾 **Project Persistence** - сохраняется с .pixo файлом
+- 🔒 **Lock System** - защита от случайных изменений
+- 🎯 **Perfect for:** Character design, color extraction, composition planning, style references
+
+---
+
+## 📚 Previous Updates - v2.9 ANIMATION & PERFORMANCE SUITE:
 
 ### 🎬 Animation Timeline UI (NEW!)
 
